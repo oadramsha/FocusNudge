@@ -19,6 +19,8 @@ Key Features:
 
 ▹ Toggles: Personalize your FocusNudge app with different accent colors, change your session lenghts, set new progress goals.
 
+Backend: Uses CoreData as a local persistent storage layer to manage and retrieve user data (focus sessions, mood logs, distractions, goal completions) through NSManagedObjectContext for entity creations, fetching, updating, and deleting data. Integrated with SwiftUI views for real time updates.
+
 Preview: 
 
 
