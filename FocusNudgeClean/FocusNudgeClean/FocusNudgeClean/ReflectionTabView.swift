@@ -84,7 +84,7 @@ struct ReflectionTabView: View {
         do {
             try viewContext.save()
         } catch {
-            print("❌ Error deleting reflection: \(error.localizedDescription)")
+            print("Error deleting reflection: \(error.localizedDescription)")
         }
     }
 }
