@@ -2,7 +2,7 @@
 //  SettingsView.swift
 //  FocusNudgeClean
 //
-//  Created by Ramsha Oad on 2025-07-14.
+//  Created by Ramsha on 2025-07-14.
 //
 import SwiftUI
 import UserNotifications
