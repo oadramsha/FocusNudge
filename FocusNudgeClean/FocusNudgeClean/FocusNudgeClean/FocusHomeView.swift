@@ -30,14 +30,14 @@ struct FocusHomeView: View {
         VStack(spacing: 30) {
             Spacer()
 
-            // App title
+          
             Text("FocusNudge")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(accent)
                 .padding(.bottom, 20)
 
-            // Subtitle
+            
             Text("Stay present, stay focused!")
                 .font(.title2)
                 .foregroundColor(.gray)
@@ -48,7 +48,7 @@ struct FocusHomeView: View {
                     }
                 }
 
-            // Timer ring + text
+            
             ZStack {
                 
                 
@@ -75,7 +75,7 @@ struct FocusHomeView: View {
                 }
             }
 
-            // Start / Stop Button
+        
             Button(action: {
                 isRunning.toggle()
                 if !isRunning {
@@ -94,7 +94,7 @@ struct FocusHomeView: View {
                     .shadow(radius: 5)
             }
 
-            // Manual Reset Button
+           
             Button(action: {
                 isRunning = false
                 timeRemaining = defaultSessionLength * 60
@@ -116,14 +116,14 @@ struct FocusHomeView: View {
         .background(Color.white)
     }
 
-    // Format time as MM:SS
+    
     func formatTime(seconds: Int) -> String {
         let minutes = seconds / 60
         let secs = seconds % 60
         return String(format: "%02d:%02d", minutes, secs)
     }
 
-    // Save to Core Data
+    
     private func saveSession() {
         let session = FocusSession(context: viewContext)
         session.minutes = Int16(elapsedSeconds / 60)
