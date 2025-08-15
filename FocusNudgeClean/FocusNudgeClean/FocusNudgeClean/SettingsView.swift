@@ -23,7 +23,7 @@ struct SettingsView: View {
 
         ScrollView {
             VStack(alignment: .leading, spacing: 30) {
-                // Title
+               
                 Text("Settings")
                     .font(.largeTitle)
                     .fontWeight(.bold)
@@ -31,7 +31,7 @@ struct SettingsView: View {
                     .multilineTextAlignment(.center)
                     .padding(.top)
 
-                // Accent Color Picker
+               
                 VStack(alignment: .leading, spacing: 10) {
                     Text("Accent Color")
                         .font(.headline)
@@ -45,13 +45,13 @@ struct SettingsView: View {
                     .pickerStyle(.segmented)
                 }
 
-                // Focus Settings
+             
                 VStack(alignment: .leading, spacing: 15) {
                     Text("Focus Options")
                         .font(.headline)
                         .padding(.top, 22)
 
-                    // Daily Reminder Toggle
+                
                     Toggle("Daily Reminder", isOn: $dailyReminder)
                         .tint(accent)
                         .onChange(of: dailyReminder) { newValue in
@@ -64,7 +64,7 @@ struct SettingsView: View {
 
                     
 
-                    // Weekly Goal Picker
+                 
                     VStack(alignment: .leading, spacing: 10) {
                         Text("Weekly Focus Goal")
                             .font(.headline)
@@ -81,7 +81,7 @@ struct SettingsView: View {
                     
                  
 
-                    // Session Length Picker
+                  
                     VStack(alignment: .leading, spacing: 10) {
                         Text("Default Session Length")
                             .font(.headline)
@@ -96,7 +96,7 @@ struct SettingsView: View {
                     }
                 }
 
-                // Reset All Settings Button
+               
                 Button(role: .destructive) {
                     showResetAlert = true
                 } label: {
@@ -121,17 +121,17 @@ struct SettingsView: View {
         }
     }
 
-    // MARK: - Reset Function
+ 
     private func resetAllSettings() {
         selectedColor = "Purple"
         dailyReminder = true
         defaultSessionLength = 25
         soundEnabled = true
 
-        scheduleDailyReminder() // Optional: re-schedule default reminder
+        scheduleDailyReminder() 
     }
 
-    // MARK: - Notifications
+   
     private func scheduleDailyReminder() {
         let content = UNMutableNotificationContent()
         content.title = "Stay Focused!"
@@ -139,7 +139,7 @@ struct SettingsView: View {
         content.sound = .default
 
         var dateComponents = DateComponents()
-        dateComponents.hour = 9 // You can let users choose this in the future
+        dateComponents.hour = 9 
 
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         let request = UNNotificationRequest(identifier: "daily_focus_reminder", content: content, trigger: trigger)
