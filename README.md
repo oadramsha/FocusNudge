@@ -1,7 +1,7 @@
 # FocusNudge App 
 FocusNudge - Your Personal Productivity & Mindfulness Companion
 
-FocusNudge is a unique focus timer IOS app built to help you stay consistent, track your progress, and reflect on your mental state, all in one place. FocusNudge keepts you motivated with a clean, desitraction-free interface and insightful feedback. The default Pomodoro timer ensures the best productivity in 25 min intervals! 
+FocusNudge is a unique focus timer IOS app built to help you stay consistent, track your progress, and reflect on your mental state, all in one place. FocusNudge keeps you motivated with a clean, desitraction-free interface and insightful feedback. The default Pomodoro timer ensures the best productivity in 25 min intervals! 
 
 Key Features: 
 
@@ -15,9 +15,9 @@ Key Features:
 
 ▹ Daily Reminder: Choose to receive a daily reminder urging you to complete your weekly goal and stay focused!
 
-▹ Smart Management: Let FocusNudge analyze your weekly patterns and determine your best time for productovity!
+▹ Smart Management: Let FocusNudge analyze your weekly patterns and determine your best time for productivity!
 
-▹ Toggles: Personalize your FocusNudge app with different accent colors, change your session lenghts, set new progress goals.
+▹ Toggles: Personalize your FocusNudge app with different accent colors, change your session lengths, set new progress goals.
 
 Backend: Uses CoreData as a local persistent storage layer to manage and retrieve user data (focus sessions, mood logs, distractions, goal completions) through NSManagedObjectContext for entity creations, fetching, updating, and deleting data. Integrated with SwiftUI views for real time updates.
 
