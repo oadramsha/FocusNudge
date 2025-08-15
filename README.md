@@ -19,6 +19,9 @@ Key Features:
 ▹ Toggles: Personalize your FocusNudge app with different accent colors, change your session lenghts, set new progress goals.
 
 Preview: 
+
+
+
 <img width="227" height="445" alt="Screenshot 2025-08-14 at 7 37 35 PM" src="https://github.com/user-attachments/assets/d8e2c143-fa07-4d63-9770-e3c7862116ff" /> <img width="223" height="446" alt="Screenshot 2025-08-14 at 7 37 18 PM" src="https://github.com/user-attachments/assets/7890b3c5-dfe4-41b6-a68d-de37511e49c7" /> <img width="228" height="448" alt="Screenshot 2025-08-14 at 7 37 58 PM" src="https://github.com/user-attachments/assets/3f00ad45-4f9d-4be0-82ea-d6a67441b599" />  <img width="228" height="450" alt="Screenshot 2025-08-14 at 7 38 09 PM" src="https://github.com/user-attachments/assets/70434fdf-b408-4412-b417-5f69d55c89ff" />
 
  
