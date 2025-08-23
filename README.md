@@ -1,5 +1,5 @@
 # FocusNudge App 
-FocusNudge - Your Personal Productivity & Mindfulness Companion
+FocusNudge - A Personal Productivity & Mindfulness Companion
 
 FocusNudge is a unique focus timer IOS app built to help you stay consistent, track your progress, and reflect on your mental state, all in one place. FocusNudge keeps you motivated with a clean, desitraction-free interface and insightful feedback. The default Pomodoro timer ensures the best productivity in 25 min intervals! 
 
